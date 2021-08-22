@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="estilos/estilo.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img class="logoHead" src="imagens/logoPlantae.png">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Ofertas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categorias
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Musgos</a>
+                        <a class="dropdown-item" href="">Vasos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="">Árvores</a>
+                        <a class="dropdown-item" href="">Mudas</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Login</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0" id="pesquisa">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquise!</button>
+                  </form>
+                </div>
+              </nav>
+        </div>
+        <div class="container">
+            <div class="carrosel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagens/pinheirobanner.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/musgobanner.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="imagens/samambaiabanner.png" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        <div class="container"  id="banner">
+            <div class="jumbotron">
+                <h1 class="display-4">Chegou o Verão!</h1>
+                <p class="lead">Com a chegada dessa época do ano, novas flores se abrem e novos ares surgem!</p>
+                <hr class="my-4">
+                <p>Aproveite para repaginar sua casa para esta época!</p>
+                <p class="lead">
+                    <p>
+                        <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Saiba mais!
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                          Para cuidar melhor da sua planta durante o verão é só olhar nosso canal no YouTube, onde ensinamos os melhores cuidados para todas as plantas para cada época do ano!
+                        </div>
+                      </div>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="produtos">
+                <h1 id="alinhamento">Veja nossas flores que amam o calor do verão:</h1>
+                <div class="row justify-content-around" id="espacoLinha">
+                    <div class="col" id="alinhamento">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" id="imgProdutos" src="imagens/produtos/coleus.jpg" alt="vaso de coleus">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso de coleus</h5>
+                              <p class="card-text">Uma linda flor que surge no verão!.</p>
+                              <button type="button" class="btn btn-success">Veja mais!</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col" id="alinhamento">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" id="imgProdutos" src="imagens/produtos/dalia.jpg" alt="vaso de dalia">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso de dalias</h5>
+                              <p class="card-text">Uma linda flor que surge no verão!.</p>
+                              <button type="button" class="btn btn-success">Veja mais!</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col" id="alinhamento">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" id="imgProdutos" src="imagens/produtos/geranio.jpg" alt="vaso de geranio">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso de geranio</h5>
+                              <p class="card-text">Uma linda flor que surge no verão!.</p>
+                              <button type="button" class="btn btn-success">Veja mais!</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around" id="espacoLinha">
+                    <div class="col" id="alinhamento">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" id="imgProdutos" src="imagens/produtos/girasois.jpg" alt="vaso de girasois">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso de girasois</h5>
+                              <p class="card-text">Uma linda flor que surge no verão!.</p>
+                              <button type="button" class="btn btn-success">Veja mais!</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col" id="alinhamento">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" id="imgProdutos" src="imagens/produtos/lirios.jpg" alt="vaso de lirios">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso de lírios</h5>
+                              <p class="card-text">Uma linda flor que surge no verão!.</p>
+                              <button type="button" class="btn btn-success">Veja mais!</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col" id="alinhamento">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" id="imgProdutos" src="imagens/produtos/vinca.jpg" alt="vaso de vinca">
+                            <div class="card-body">
+                              <h5 class="card-title">Vaso de vinca</h5>
+                              <p class="card-text">Uma linda flor que surge no verão!.</p>
+                              <button type="button" class="btn btn-success">Veja mais!</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-md-center">
+                <nav aria-label="Page navigation example" >
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="">Voltar</a></li>
+                      <li class="page-item"><a class="page-link" href="">1</a></li>
+                      <li class="page-item"><a class="page-link" href="">2</a></li>
+                      <li class="page-item"><a class="page-link" href="">3</a></li>
+                      <li class="page-item"><a class="page-link" href="">Próximo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <footer class="footer">
+                <div class="container">
+                    <br>
+                    <div class="row justify-content-md-center">
+                        <div class="col-2" id="alinhamento">
+                            <a href="" class="linksFooter">Informações da Empresa</a>
+                        </div>
+                        <div class="col-2" id="alinhamento">
+                            <a href="" class="linksFooter">Contato</a>
+                        </div>
+                        <div class="col-2" id="alinhamento">
+                            <a href="" class="linksFooter">Suporte</a>
+                        </div>
+                        <div class="col-2" id="alinhamento">
+                            <a href="" class="linksFooter">Blog</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row justify-content-md-center">
+                        <div class="col-1" id="alinhamento">
+                            <a><img class="icone" src="imagens/iconeFacebook.png"></a>
+                        </div>
+                        <div class="col-1" id="alinhamento">
+                            <a><img class="icone" src="imagens/iconeInstragam.png"></a>
+                        </div>
+                        <div class="col-1" id="alinhamento">
+                            <a><img class="icone" src="imagens/iconeWhatsapp.png"></a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center">
+                        <p>© 2021 Copyright - Plantae Inc.</p>
+                    </div>
+                    <br>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
